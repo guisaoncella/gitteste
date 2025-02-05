@@ -8,6 +8,10 @@ app.get ('/', (req, res) => {
   res.send ('hello world')
 })
 
+app.get ('/about', (req, res) => {
+  res.send ('this is the about page')
+})
+
 app.listen(port, () => {
   console.log(`listening on port ${port}`)
 })
