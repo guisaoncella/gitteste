@@ -13,7 +13,7 @@ app.get ('/about', (req, res) => {
 })
 
 app.get ('/contact', (req, res) => {
-  res.send ('this is the contact page')
+  res.send ('this is the contact page (change)')
 })
 
 app.listen(port, () => {
