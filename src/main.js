@@ -16,6 +16,14 @@ app.get ('/contact', (req, res) => {
   res.send ('this is the contact page (change)')
 })
 
+app.get('/info', (req, res) => {
+  res.json({
+    server: 'Node.js',
+    version: process.version,
+    current_time: new Date()
+  })
+})
+
 app.listen(port, () => {
   console.log(`listening on port ${port}`)
 })
