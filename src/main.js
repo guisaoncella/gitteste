@@ -9,7 +9,7 @@ app.get ('/', (req, res) => {
 })
 
 app.get ('/about', (req, res) => {
-  res.send ('this is the about page (change)')
+  res.send ('mudança')
 })
 
 app.get ('/contact', (req, res) => {
