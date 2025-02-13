@@ -18,7 +18,7 @@ app.get ('/contact', (req, res) => {
 
 app.get('/info', (req, res) => {
   res.json({
-    server: 'Node.js',
+    server: 'node.js',
     version: process.version,
     current_time: new Date()
   })
