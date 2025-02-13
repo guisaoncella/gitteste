@@ -9,7 +9,7 @@ app.get ('/', (req, res) => {
 })
 
 app.get ('/about', (req, res) => {
-  res.send ('é isso ai')
+  res.send ('é isso ai!')
 })
 
 app.get ('/contact', (req, res) => {
